@@ -3,6 +3,8 @@ Feather-Menu
 
 A lightweight solution for a mobile slide-in menu, Feather Menu coicides nicely with the Feather grid system (https://github.com/JDerwisz/Feather), but works just as well on its own.
 
+**Demo:** http://htmlpreview.github.io/?https://github.com/JDerwisz/Feather-Menu/blob/master/demo/demo.html
+
 ##Installation##
 
 1) Include core.css in the ```<head>``` section of the page
