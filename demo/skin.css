@@ -1,0 +1,238 @@
+/*FEATHER GRID : (https://github.com/JDerwisz/Feather)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+	font-size: 100%;
+}
+h1 {
+	font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+h2 {
+	font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+h3 {
+	font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h4 {
+	margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+h5 {
+	font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+}
+h6 {
+	font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+}
+
+.row {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.elmnt-center {
+    display: block;
+    margin: 0 auto;
+}
+.elmnt-padded {
+    padding: 1.25em;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+.no-gutter {
+    margin-bottom: 0;
+}
+
+.col-12, .col-11, .col-10, .col-9,
+.col-8, .col-7, .col-6, .col-5,
+.col-4, .col-3, .col-2, .col-1 {
+    margin-right: 2%;
+    float: left;
+}
+.col-12:last-child, .col-11:last-child,
+.col-10:last-child, .col-9:last-child,
+.col-8:last-child, .col-7:last-child,
+.col-6:last-child, .col-5:last-child,
+.col-4:last-child, .col-3:last-child,
+.col-2:last-child, .col-1:last-child {
+    margin-right: 0;
+}
+.col-12 {width: 100%;}
+.col-11 {width: 91.5%;}
+.col-10 {width: 83%;}
+.col-9 {width: 74.5%;}
+.col-8 {width: 66%;}
+.col-7 {width: 57.5%;}
+.col-6 {width: 49%;}
+.col-5 {width: 40.5%;}
+.col-4 {width: 32%;}
+.col-3 {width: 23.5%;}
+.col-2 {width: 15%;}
+.col-1 {width: 6.5%;}
+
+@media screen and (max-width: 1680px) {
+	
+}
+@media screen and (max-width: 1440px) {
+	
+}
+@media screen and (max-width: 1200px) {
+	
+}
+@media screen and (max-width: 960px) {
+	h1 {
+		font-size: 1.5em;
+		margin-top: 0.67em;
+		margin-bottom: 0.67em;
+	}
+	h2 {
+		font-size: 1.17em;
+		margin-top: 0.83em;
+		margin-bottom: 0.83em;
+	}
+	h3 {
+		font-size: 1.33em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.elmnt-padded {
+		padding: 1em;
+	}
+}
+@media screen and (max-width: 720px) {
+	.elmnt-padded {
+		padding: 0.5em;
+	}
+}
+@media screen and (max-width: 480px) {
+    .col-12, .col-11, .col-10, .col-9,
+    .col-8, .col-7, .col-6, .col-5,
+    .col-4, .col-3, .col-2, .col-1 {
+        width: 100%;
+        margin-bottom: 2%;
+		margin-right: 0;
+    }
+    .col-12:last-child, .col-11:last-child,
+    .col-10:last-child, .col-9:last-child,
+    .col-8:last-child, .col-7:last-child,
+    .col-6:last-child, .col-5:last-child,
+    .col-4:last-child, .col-3:last-child,
+    .col-2:last-child, .col-1:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*HOUSEKEEPING*/
+html, body {
+	font-family: "Lato", sans-serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {list-style-type: none;}
+
+/*ALL MENUS*/
+.feather-menu {
+	padding: 0.8em;
+}
+.feather-menu a {
+	text-decoration: none;
+}
+.feather-menu ul {
+	margin-top: 2em;
+}
+.feather-menu ul li {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.feather-menu ul li:last-child {
+	border-bottom: none;
+}
+.feather-menu-close-wrap {
+	overflow: hidden;
+}
+.feather-menu-close-wrap a {
+	font-size: 0.8em;
+}
+.feather-left .feather-menu-close-wrap a {
+	float: left;
+}
+.feather-right .feather-menu-close-wrap a {
+	float: right
+}
+
+/*MAIN MENU*/
+#feather-main {
+	background-color: #000;
+	color: #bebebe;
+}
+#feather-main a {
+	color: #fff;
+}
+#feather-main ul li {
+	border-bottom-color: #2a2a2a;
+}
+
+/*SUB MENU*/
+#feather-sub {
+	background-color: #E7B800;
+	color: #3f3f3f;
+}
+#feather-sub a {
+	color: #000;
+}
+#feather-sub ul li {
+	border-bottom-color: #AE8B00;
+}
+
+/*DEMO PAGE*/
+#page-wrap {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+.feather-demo-buttons-wrap {
+	margin-top: 3em;
+}
+.button {
+	display: block;
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+	color: #000;
+	background: #E7B800;
+	cursor: pointer;
+}

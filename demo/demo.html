@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="/core/core.css">
+		<link rel="stylesheet" type="text/css" href="/demo/skin.css">
+	</head>
+	<body>
+		<div id = "feather-main" class = "feather-menu">
+			<div class = "feather-menu-close-wrap">
+				<a href="#" id="feather-main-close">X Close Menu</a>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div id = "feather-sub" class = "feather-menu">
+			<div class = "feather-menu-close-wrap">
+				<a href="#" id="feather-sub-close">X Close Menu</a>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div id = "page-wrap" class = "elmnt-padded">
+			<div class = "row">
+				<div class = "col-12">
+					<h1>Feather Slide-In Menu</h1>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-12">
+					In ac felis quis tortor malesuada pretium. Sed a libero. Etiam ultricies nisi vel augue. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
+
+					Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Curabitur suscipit suscipit tellus. Ut tincidunt tincidunt erat. Praesent blandit laoreet nibh.
+				</div>
+			</div>
+			<div class = "row feather-demo-buttons-wrap">
+				<div class = "col-6">
+					<a id="feather-main-open" class = "button">Default Width Left Menu</a>
+				</div>
+				<div class = "col-6">
+					<a id="feather-sub-open" class = "button">Custom Width Right Menu</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="/core/core.js"></script>
+		<script>setMenu("feather-main");</script>
+		<script>setMenu("feather-sub", "right", 200);</script>
+	</body>
+</html>
